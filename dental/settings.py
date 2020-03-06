@@ -121,7 +121,7 @@ EMAIL_HOST_PASSWEORD = 'Besmellah@313yazahra***'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 '''
-
+# python -m smtpd -n -c DebuggingServer localhost:1025
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 1025
 EMAIL_HOST_USER = ''
